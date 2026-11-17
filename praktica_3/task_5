@@ -1,0 +1,6 @@
+shopping_list = ["Фанта","Пельмени","Апельсины","Сок яблочный"]
+shopping_list.append("Фанта")
+print("Список:", shopping_list) #список допускает повторы
+
+unique_items = set(shopping_list)
+print("Множество", unique_items)
