@@ -1,0 +1,10 @@
+my_list = [1,2,3]
+print(my_list)
+my_list[0] = 100
+print(my_list) #Список можно редактировать
+
+my_tuple = (1,2,3)
+print(my_tuple) #кортеж изменять нельзя (ошибка type error)
+
+my_string = "cat"
+my_string[0] = "b" #кортеж изменять нельзя (ошибка type error)
